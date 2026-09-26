@@ -1,6 +1,6 @@
 # 🚀 MT6853 Kernel (OPPO / Realme) - Android 12
 
-![Kernel Version](https://img.shields.io/badge/Kernel-4.14.x-blue.svg)
+![Kernel Version](https://img.shields.io/badge/Kernel-4.14.357-blue.svg)
 ![Android Version](https://img.shields.io/badge/Android-12-green.svg)
 ![Platform](https://img.shields.io/badge/Platform-MediaTek%20MT6853-orange.svg)
 ![Build](https://img.shields.io/github/actions/workflow/status/momo54181/android_kernel_oplus_mt6853/build.yml)
@@ -11,7 +11,7 @@
 
 本项目基于 OPlus 官方内核源码进行维护，并集成：
 
-- ReSukiSU 内核特权框架
+- ReSukiSU 内核ROOT
 - GitHub Actions 自动化 CI/CD
 - AnyKernel3 自动刷包生成
 
@@ -21,7 +21,7 @@
 
 # 📱 支持设备
 
-本内核采用通用 MT6853 OPlus 平台配置：
+本内核采用通用 OPPO/Realme MT6853 平台配置：
 
 ## OPPO
 
@@ -86,6 +86,7 @@ MT6853-xxx-AnyKernel3.zip
 - TWRP
 - OrangeFox
 - 其他支持 AnyKernel3 的 Recovery
+- ROOT管理器
 
 刷入。
 
@@ -112,7 +113,7 @@ GitHub Actions 会根据分支名称自动选择对应工具链。
 ```
 kernel-main
         ↓
-clang19
+clang21
 
 
 vanilla-test
